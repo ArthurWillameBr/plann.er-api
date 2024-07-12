@@ -12,7 +12,6 @@ datasource db {
 
 model Trip {
   id           String   @id @default(uuid())
-  name         String
   destination  String
   starts_at    DateTime
   ends_at      DateTime
