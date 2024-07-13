@@ -6,7 +6,6 @@ import z from "zod";
 import nodemailer from "nodemailer";
 import { prisma } from "../lib/prisma";
 import { getMailClient } from "../lib/mail";
-import dayjs from "dayjs";
 
 dayjs.locale("pt-br");
 
