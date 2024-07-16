@@ -6,6 +6,7 @@ import nodemailer from "nodemailer";
 import { prisma } from "../lib/prisma";
 import { getMailClient } from "../lib/mail";
 import { ClientError } from "../errors/client-error";
+import { env } from "../env";
 
 
 export async function CreateTrip(app: FastifyInstance) {
